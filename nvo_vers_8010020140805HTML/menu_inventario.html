@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+   <title>Módulos Operativos &gt; Menú Inventario</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="">
+   <meta name="description" content="Menú Inventario">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <!-- This line forces IE8 into IE7 mode, safer until IE8 is better known -->
+   <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+   <link type="text/css" href="default.css" rel="stylesheet">
+   <link type="text/css" href="custom.css" rel="stylesheet">
+   <script type="text/javascript" src="nsh.js"></script>
+
+<script type="text/javascript">   
+// Toggle Toggler 
+
+var toggleCount=false;
+var switchState;
+
+function toggleToggles() {
+
+    if (!toggleCount) {
+     toggleCount = true;
+     HMToggleExpandAll(true);
+     switchState = true;
+     }
+   
+     else if (switchState) {
+        HMToggleExpandAll(false);
+        switchState = false;
+        }
+        
+     else  {
+        HMToggleExpandAll(true);
+        switchState = true;
+        } 
+    }
+</script>
+   
+<!-- non-scrolling headers for CHM and browser-based help, local styles-->
+<style TYPE="text/css" media="screen"> 
+   body {    
+      margin:0; 
+      padding:0; 
+      overflow: auto; 
+      background: #FFFFFF; 
+   } 
+   #idheader { 
+      width:100%; 
+      height:auto; 
+      padding: 0; 
+      margin: 0; 
+} 
+    #idheaderbg  {
+    background: #6F6F6F; 
+}
+
+   #callout-table, #overview-table {display:block; position:relative; top:0; left:0;}
+   #callout-icon {display:block; position:absolute; top:-11px; left:-11px;}
+   #callout-icon-flag {display:block; position:absolute; top:-11px; left:-8px;}
+   #callout-table a {text-decoration: none; color: blue;}
+   #callout-table a:visited {text-decoration: none; color: blue;}
+   #overview-table a {text-decoration: none; color: black;}
+   #overview-table a:visited {text-decoration: none; color: black;}
+   #callout-table a:hover, #overview-table a:hover {text-decoration: underline;}
+   </style>
+   
+<style TYPE="text/css" MEDIA="print">
+<!--
+/* Hide navigation links and add space between header
+     and text in the printed version. Not valid for eBooks. */
+#idnav { display:none;	 }
+.topichead { padding: 5px 5px 20px 5px; }
+-->
+</style>   
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?menu_inventario.html"; }
+  else { parent.quicksync('a2.3'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+<!--ZOOMSTOP-->
+
+<div id="idheader">
+<div id="idheaderbg">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" 
+       style="margin: 0px; background: url(header_bg.jpg);">
+
+  <tr valign="bottom">
+    <td align="left" valign="bottom" class="topichead">
+   <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+   
+   <a href="modulos_operativos.html">Módulos Operativos</a>&nbsp;&gt;</p>
+   <p class="p_Heading1"><span class="f_Heading1">Menú Inventario</span></p>
+
+    </td>
+    <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+    
+     <a href="menu_consultas_reportes.html"
+        onmouseover="document.images.prev.src='btn_prev_h.gif'" 
+        onmouseout="document.images.prev.src='btn_prev_n.gif'"
+        ><img name=prev src="btn_prev_n.gif" border=0 alt="Previous page"
+        ></a><a href="modulos_operativos.html"
+        onmouseover="document.images.main.src='btn_home_h.gif'" 
+        onmouseout="document.images.main.src='btn_home_n.gif'"><img name=main src="btn_home_n.gif" border=0 alt="Return to chapter overview"
+        ></a><a href="menu_general_operativo.html"
+        onmouseover="document.images.next.src='btn_next_h.gif'" 
+        onmouseout="document.images.next.src='btn_next_n.gif'"><img name=next src="btn_next_n.gif" border=0 alt="Next page"
+        ></a>
+    </td>
+  </tr>
+  <tr><td colspan="2" style="height: 3px; background: url(header_bg_shadow.gif)"></td></tr>
+</table>
+</div>
+
+<!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+  
+
+</div>  
+
+
+
+<div id="idcontent"><div id="innerdiv"> 
+<!--ZOOMRESTART-->
+<p style="text-align: justify; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: justify; line-height: 1.50;"><a name="publicac_inventar"></a><span style="font-weight: bold;">Publicación de Inventario</span></p>
+<p style="text-align: justify; line-height: 1.50;"><span style="width:48px">&nbsp;</span>Desde el Módulo de Repuestos <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Publicación de Inventario&gt;&gt;Generar Disponibilidad para la Red&gt;&gt;</span>, podrá dar a conocer la existencia de sus productos a todos los concesionario de la misma marca a nivel nacional de manera automática.</p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Configurar Disponibilidad de Inventario</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="publicac_invent.png" width="1005" height="681" border="0" alt="publicac_invent"></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Generar y Enviar Disponibilidad de Inventario</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="publicac_invent2.png" width="1005" height="639" border="0" alt="publicac_invent2"></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: justify; line-height: 1.50;"><a name="considerac_publicac"></a><span style="font-weight: bold;">Consideraciones Importantes Para la Publicación de Inventario</span></p>
+<div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: 1.50;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Tahoma'; color: #000000;">1.</span></td><td>La publicación de inventario será un servicio por suscripción disponible sólo para aquellos clientes que lo soliciten, por ello deberá contactar a nuestras oficinas.</td></tr></table></div><div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: 1.50;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Tahoma'; color: #000000;">2.</span></td><td>Antes de configurar la publicación de inventario deberá indicar <span style="font-style: italic; text-decoration: underline;">en el "Menú General" por la opción &gt;&gt;Departamentos por Compañía&gt;&gt;</span>, los nombres y apellidos, números telefónicos y direcciones e-mail de las personas contactos en el concesionario.</td></tr></table></div><div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: 1.50;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Tahoma'; color: #000000;">3.</span></td><td>Las dos (2) condiciones necesarias para la publicación de inventario es que las partes o piezas tengan asignada la ubicación, y que tengan existencia.</td></tr></table></div><div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: 1.50;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Tahoma'; color: #000000;">4.</span></td><td>La publicación sólo se puede hacer desde el equipo que funciona como <span style="font-style: italic; text-decoration: underline;">"Servidor"</span>, o lo que es lo mismo, dónde se encuentra el manejador de la base de datos. Además, es de carácter obligatorio que el setup o instalador de Infoauto tenga la ubicación "C:\infoauto", de lo contrario no funciona.</td></tr></table></div><div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: 1.50;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Tahoma'; color: #000000;">5.</span></td><td>Luego de enviarse la publicación de inventario la primera vez, de manera automática se podrá enviar una publicación cada 1/2 hora (30 minutos).</td></tr></table></div><div style="text-align: justify; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: 1.50;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Tahoma'; color: #000000;">6.</span></td><td>Si Usted desea incluir o excluir productos masivamente de la lista de publicación de inventario podrá hacerlo en el <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Publicación de Inventario&gt;&gt;Incluir/Excluir Productor para Disponibilidad en la Red&gt;&gt;</span>.</td></tr></table></div><p style="text-align: justify; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Incluir/Excluir Productos para Disponibilidad en la Red</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="incl-excl_rpto_disponibil.png" width="1005" height="639" border="0" alt="incl-excl_rpto_disponibil"></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: justify; line-height: 1.50;"><a name="rpto_subsubtip"></a><span style="font-weight: bold;">Repuestos por Subsubtipo</span></p>
+<p style="text-align: justify; line-height: 1.50;"><span style="width:48px">&nbsp;</span>Desde el Módulo de Repuestos <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Ficha de Repuestos&gt;&gt;</span>, podrá indicar el subtipo y el subsubtipo según el tipo de repuesto. La activación del tipo de repuestos, y la creación del subtipo u subsubtipo de repuestos lo podrá hacer en <span style="font-style: italic; text-decoration: underline;"><a href="menu_general_operativo.html#tabl_subsubtip">"Menú General" opción &gt;&gt;Tablas Básicas&gt;&gt;</a></span>.</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Subsubtipo de Repuestos</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="fich_rpto_subsubtip.png" width="1005" height="639" border="0" alt="fich_rpto_subsubtip"></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: justify; line-height: 1.50;"><a name="creac_rpto_simil"></a><span style="font-weight: bold;">Repuestos Con Características Similares</span></p>
+<p style="text-align: justify; line-height: 1.50;"><span style="width:48px">&nbsp;</span>Desde el Módulo de Repuestos <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Ficha de Repuestos&gt;&gt;</span>, podrá crear nuevos repuestos desde la ficha de un repuesto ya registrado, sólo deberá cambiar los datos que se requieran para identificar al nuevo producto.</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Repuesto Similar</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="fich_rpto_simil.png" width="1100" height="639" border="0" alt="fich_rpto_simil"></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: justify; line-height: 1.50;"><a name="codig_proveed"></a><span style="font-weight: bold;">Códigos por Proveedor</span></p>
+<p style="text-align: justify; line-height: 1.50;"><span style="width:48px">&nbsp;</span>Desde el Módulo de Repuestos <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Códigos de Productos por Proveedor&gt;&gt;</span>, ahora podrá asociar los códigos de cada producto por cada uno de los códigos que manejan los proveedores.</p>
+<p style="text-align: justify; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Asociar Códigos por Proveedor</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="codig_proveed.png" width="1005" height="639" border="0" alt="codig_proveed"></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: justify; line-height: 1.50;"><a name="codig_unificad"></a><span style="font-weight: bold;">Códigos Unificados</span></p>
+<p style="text-align: justify; line-height: 1.50;"><span style="width:48px">&nbsp;</span>Desde el Módulo de Repuestos <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Códigos &nbsp;Unificados y Clasificadores&gt;&gt;</span>, ahora podrá asociar a cada producto un código unificado diferente al código que comúnmente tiene. Así como puede manejar un código unificado, podrá manejar otros códigos, tales como: código interno, código de barras y código EAN, e inclusive descripción alterna del producto.</p>
+<p style="text-align: justify; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Asociar Códigos Unificados</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="codig_unificad.png" width="1005" height="639" border="0" alt="codig_unificad"></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: justify; line-height: 1.50;"><a name="manten_ofert"></a><span style="font-weight: bold;">Mantenimiento de Ofertas</span></p>
+<p style="text-align: justify; line-height: 1.50;"><span style="width:48px">&nbsp;</span>Desde el Módulo de Repuestos <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Mantenimiento de Ofertas y PVP&gt;&gt;</span>, podrá colocar oferta a los productos al especificar alguno de los tipo de costo (Ej:planta, reposición, promedio, último, etc), y algún porcentaje de cálculo basado en las fórmulas de precio y costo (descuento sobre pvp, incremento del costo y utilidad en la venta).</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Oferta de Productos</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="manten_ofert.png" width="1163" height="639" border="0" alt="manten_ofert"></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: justify; line-height: 1.50;"><a name="manten_pvp"></a><span style="font-weight: bold;">Mantenimiento de PVP</span></p>
+<p style="text-align: justify; line-height: 1.50;"><span style="width:48px">&nbsp;</span>Desde el Módulo de Repuestos <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Mantenimiento de Ofertas y PVP&gt;&gt;,</span> al igual que las ofertas podrá colocar a los productos un precio diferente a lo indicado en tipo de costo y fórmula de precio y costo de la modalidad de precios.</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. PVP de Productos</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="manten_pvp.png" width="1308" height="639" border="0" alt="manten_pvp"></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: justify; line-height: 1.50;"><a name="listad_product_cost_ult"></a><span style="font-weight: bold;">Listado de Productos</span></p>
+<p style="text-align: justify; line-height: 1.50;"><span style="width:48px">&nbsp;</span>Desde el Módulo de Repuestos <span style="font-style: italic; text-decoration: underline;">"Menú Inventario" opción &gt;&gt;Reportes&gt;&gt;Listados y Consultas</span>, podrá consultar las existencias de productos con nuevos filtros de consulta, uno de ellos es el <span style="font-style: italic; text-decoration: underline;">"Costo Último"</span>.</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-size: 8pt; font-weight: bold;">Figura. Listado de Productos con Costo Último</span></p>
+<p style="text-align: center; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: center; line-height: 1.50;"><img src="listad_product_ultim.png" width="1005" height="639" border="0" alt="listad_product_ultim"></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<hr noshade size=2 style="color : #808080"><p class="p_Título3" style="text-align: right; line-height: 1.50;"><span class="f_Título3"><a href="modulo_administrativo.html">Volver a Índice de Módulo Administrativo</a></span></p>
+<p style="text-align: right; line-height: 1.50;"><span style="font-family: 'Arial'; color: #000000;">&nbsp;</span></p>
+<p style="text-align: right; line-height: 1.50;"><span class="f_Título3"><a href="modulos_operativos.html">Volver al Índice de Módulos Operativos</a></span></p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+<p style="text-align: center; line-height: 1.50;">&nbsp;</p>
+
+<!--ZOOMSTOP-->
+</div></div>
+<script type="text/javascript"> 
+<!-- 
+var lastSlashPos = document.URL.lastIndexOf("/") >
+document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") :
+document.URL.lastIndexOf("\\");
+if( document.URL.substring( lastSlashPos + 1, lastSlashPos + 4
+).toLowerCase() != "~hh" )
+{
+    nsrInit();
+}
+--> 
+</script> 
+</body>
+</html>
